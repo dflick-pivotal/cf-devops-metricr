@@ -1,4 +1,4 @@
-# cfdevopsmetricr
+# cf-devops-metricr
 Spring boot "KPIs-as-a-service" application that gathers data from a cloud foundry instance and generates KPI reports.
 
 This project includes two applications.
