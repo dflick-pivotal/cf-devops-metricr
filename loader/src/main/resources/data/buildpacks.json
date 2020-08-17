@@ -1,0 +1,248 @@
+{
+  "total_results": 15,
+  "total_pages": 1,
+  "prev_url": null,
+  "next_url": null,
+  "resources": [
+    {
+      "metadata": {
+        "guid": "3bb8b6f8-602e-475e-8aa9-3941e591cf91",
+        "url": "/v2/buildpacks/3bb8b6f8-602e-475e-8aa9-3941e591cf91",
+        "created_at": "2018-09-05T20:27:01Z",
+        "updated_at": "2020-07-14T15:57:28Z"
+      },
+      "entity": {
+        "name": "staticfile_buildpack",
+        "stack": "cflinuxfs3",
+        "position": 1,
+        "enabled": true,
+        "locked": false,
+        "filename": "staticfile_buildpack-cached-cflinuxfs3-v1.5.9.zip"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "273e1851-d835-4c3a-83de-bba3ff3ddccc",
+        "url": "/v2/buildpacks/273e1851-d835-4c3a-83de-bba3ff3ddccc",
+        "created_at": "2018-09-05T20:55:14Z",
+        "updated_at": "2020-07-15T14:26:43Z"
+      },
+      "entity": {
+        "name": "java_buildpack",
+        "stack": "cflinuxfs3",
+        "position": 2,
+        "enabled": true,
+        "locked": false,
+        "filename": "java-buildpack-offline-cflinuxfs3-v4.32.zip"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "b0d36884-69ae-4b08-9950-63b2bde69563",
+        "url": "/v2/buildpacks/b0d36884-69ae-4b08-9950-63b2bde69563",
+        "created_at": "2018-09-05T20:27:18Z",
+        "updated_at": "2020-07-09T21:34:33Z"
+      },
+      "entity": {
+        "name": "ruby_buildpack",
+        "stack": "cflinuxfs3",
+        "position": 3,
+        "enabled": true,
+        "locked": false,
+        "filename": "ruby_buildpack-cached-cflinuxfs3-v1.8.21.zip"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "5c57541b-69e3-460a-8e77-b59a3d1e932e",
+        "url": "/v2/buildpacks/5c57541b-69e3-460a-8e77-b59a3d1e932e",
+        "created_at": "2018-09-05T20:22:54Z",
+        "updated_at": "2020-07-08T20:21:56Z"
+      },
+      "entity": {
+        "name": "dotnet_core_buildpack",
+        "stack": "cflinuxfs3",
+        "position": 4,
+        "enabled": true,
+        "locked": false,
+        "filename": "dotnet-core_buildpack-cached-cflinuxfs3-v2.3.12.zip"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "6b70e2d7-1c63-4af9-b06d-37ae841ca8ae",
+        "url": "/v2/buildpacks/6b70e2d7-1c63-4af9-b06d-37ae841ca8ae",
+        "created_at": "2018-09-05T20:26:55Z",
+        "updated_at": "2020-05-19T16:57:11Z"
+      },
+      "entity": {
+        "name": "nodejs_buildpack",
+        "stack": "cflinuxfs3",
+        "position": 5,
+        "enabled": true,
+        "locked": false,
+        "filename": "nodejs-cnb-cf-v2.0.11.zip"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "7b670acb-d586-4147-bc6f-02dc1b161b34",
+        "url": "/v2/buildpacks/7b670acb-d586-4147-bc6f-02dc1b161b34",
+        "created_at": "2018-09-05T20:25:14Z",
+        "updated_at": "2020-06-09T20:16:38Z"
+      },
+      "entity": {
+        "name": "go_buildpack",
+        "stack": "cflinuxfs3",
+        "position": 6,
+        "enabled": true,
+        "locked": false,
+        "filename": "go_buildpack-cached-cflinuxfs3-v1.9.14.zip"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "6d8eb2b5-8485-41e3-956e-7dda4daaceb3",
+        "url": "/v2/buildpacks/6d8eb2b5-8485-41e3-956e-7dda4daaceb3",
+        "created_at": "2018-09-05T20:27:36Z",
+        "updated_at": "2020-07-14T15:57:28Z"
+      },
+      "entity": {
+        "name": "python_buildpack",
+        "stack": "cflinuxfs3",
+        "position": 7,
+        "enabled": true,
+        "locked": false,
+        "filename": "python_buildpack-cached-cflinuxfs3-v1.7.16.zip"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "3799ee0f-9367-40dc-b6c5-8e1e24ac31b5",
+        "url": "/v2/buildpacks/3799ee0f-9367-40dc-b6c5-8e1e24ac31b5",
+        "created_at": "2018-09-05T20:27:50Z",
+        "updated_at": "2020-07-14T15:58:51Z"
+      },
+      "entity": {
+        "name": "php_buildpack",
+        "stack": "cflinuxfs3",
+        "position": 8,
+        "enabled": true,
+        "locked": false,
+        "filename": "php_buildpack-cached-cflinuxfs3-v4.4.18.zip"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "8e5fbe06-b99a-4c30-bdab-9cb947466103",
+        "url": "/v2/buildpacks/8e5fbe06-b99a-4c30-bdab-9cb947466103",
+        "created_at": "2018-10-25T19:04:58Z",
+        "updated_at": "2019-12-18T15:52:22Z"
+      },
+      "entity": {
+        "name": "binary_buildpack",
+        "stack": "cflinuxfs3",
+        "position": 9,
+        "enabled": true,
+        "locked": false,
+        "filename": "binary_buildpack-cached-cflinuxfs3-v1.0.36.zip"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "2eacda71-cb7b-43c9-a43d-8ddc2b284850",
+        "url": "/v2/buildpacks/2eacda71-cb7b-43c9-a43d-8ddc2b284850",
+        "created_at": "2016-10-18T21:34:33Z",
+        "updated_at": "2016-10-18T21:34:46Z"
+      },
+      "entity": {
+        "name": "dotnet_core_buildpack_beta",
+        "stack": null,
+        "position": 10,
+        "enabled": true,
+        "locked": false,
+        "filename": "dotnet-core_buildpack-cached-v1.0.0.zip"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "10ddc1bf-29e6-4044-bd40-5aad6ceb2337",
+        "url": "/v2/buildpacks/10ddc1bf-29e6-4044-bd40-5aad6ceb2337",
+        "created_at": "2018-01-31T19:26:21Z",
+        "updated_at": "2020-05-26T23:03:59Z"
+      },
+      "entity": {
+        "name": "hwc_buildpack",
+        "stack": "windows2016",
+        "position": 11,
+        "enabled": true,
+        "locked": false,
+        "filename": "hwc_buildpack-cached-windows2016-v3.1.15.zip"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "5008523b-5189-4b76-8c6c-d0dd4d6325a9",
+        "url": "/v2/buildpacks/5008523b-5189-4b76-8c6c-d0dd4d6325a9",
+        "created_at": "2018-10-25T19:04:59Z",
+        "updated_at": "2019-12-18T15:52:24Z"
+      },
+      "entity": {
+        "name": "binary_buildpack",
+        "stack": "windows2016",
+        "position": 12,
+        "enabled": true,
+        "locked": false,
+        "filename": "binary_buildpack-cached-windows2016-v1.0.36.zip"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "3eef1b37-3227-408b-bdee-382b057871ba",
+        "url": "/v2/buildpacks/3eef1b37-3227-408b-bdee-382b057871ba",
+        "created_at": "2019-04-17T21:06:43Z",
+        "updated_at": "2020-05-26T23:04:03Z"
+      },
+      "entity": {
+        "name": "hwc_buildpack",
+        "stack": "windows",
+        "position": 13,
+        "enabled": true,
+        "locked": false,
+        "filename": "hwc_buildpack-cached-windows-v3.1.15.zip"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "c79facfb-f58b-49cc-8f47-6f8990928178",
+        "url": "/v2/buildpacks/c79facfb-f58b-49cc-8f47-6f8990928178",
+        "created_at": "2019-04-17T21:06:58Z",
+        "updated_at": "2020-04-22T21:33:07Z"
+      },
+      "entity": {
+        "name": "binary_buildpack",
+        "stack": "windows",
+        "position": 14,
+        "enabled": true,
+        "locked": false,
+        "filename": "binary_buildpack-cached-windows-v1.0.36.zip"
+      }
+    },
+    {
+      "metadata": {
+        "guid": "e627b2ec-b6ae-461a-bb2a-2f9490b7f1f7",
+        "url": "/v2/buildpacks/e627b2ec-b6ae-461a-bb2a-2f9490b7f1f7",
+        "created_at": "2019-11-05T16:04:25Z",
+        "updated_at": "2019-11-05T16:04:25Z"
+      },
+      "entity": {
+        "name": "web_config_transform_buildpack",
+        "stack": null,
+        "position": 15,
+        "enabled": true,
+        "locked": false,
+        "filename": "Pivotal.Web.Config.Transform.Buildpack-win-x64-1.1.9.zip"
+      }
+    }
+  ]
+}

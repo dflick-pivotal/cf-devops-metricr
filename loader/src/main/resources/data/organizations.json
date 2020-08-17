@@ -1,0 +1,33 @@
+{
+  "total_results": 1,
+  "total_pages": 1,
+  "prev_url": null,
+  "next_url": null,
+  "resources": [
+    {
+      "metadata": {
+        "guid": "9be8e148-6ebf-489b-a2b1-dc659df7373f",
+        "url": "/v2/organizations/9be8e148-6ebf-489b-a2b1-dc659df7373f",
+        "created_at": "2013-08-20T18:16:07Z",
+        "updated_at": "2017-10-04T22:30:37Z"
+      },
+      "entity": {
+        "name": "EMEA",
+        "billing_enabled": false,
+        "quota_definition_guid": "e25b1db2-609f-4002-abe0-ac9f091c9d2f",
+        "status": "active",
+        "default_isolation_segment_guid": null,
+        "quota_definition_url": "/v2/quota_definitions/e25b1db2-609f-4002-abe0-ac9f091c9d2f",
+        "spaces_url": "/v2/organizations/9be8e148-6ebf-489b-a2b1-dc659df7373f/spaces",
+        "domains_url": "/v2/organizations/9be8e148-6ebf-489b-a2b1-dc659df7373f/domains",
+        "private_domains_url": "/v2/organizations/9be8e148-6ebf-489b-a2b1-dc659df7373f/private_domains",
+        "users_url": "/v2/organizations/9be8e148-6ebf-489b-a2b1-dc659df7373f/users",
+        "managers_url": "/v2/organizations/9be8e148-6ebf-489b-a2b1-dc659df7373f/managers",
+        "billing_managers_url": "/v2/organizations/9be8e148-6ebf-489b-a2b1-dc659df7373f/billing_managers",
+        "auditors_url": "/v2/organizations/9be8e148-6ebf-489b-a2b1-dc659df7373f/auditors",
+        "app_events_url": "/v2/organizations/9be8e148-6ebf-489b-a2b1-dc659df7373f/app_events",
+        "space_quota_definitions_url": "/v2/organizations/9be8e148-6ebf-489b-a2b1-dc659df7373f/space_quota_definitions"
+      }
+    }
+  ]
+}

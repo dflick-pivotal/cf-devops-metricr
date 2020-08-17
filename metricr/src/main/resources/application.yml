@@ -1,0 +1,53 @@
+# spring boot actuator settings
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  cloudfoundry:
+    skip-ssl-validation: true
+
+# spring data rest settings
+spring:
+  data:
+    rest:
+      base-path: /api/v1
+# spring data jpa settings
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+#        generate_statistics: true
+        order_inserts: true
+        jdbc:
+          batch_size: 30
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/events?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Europe/Berlin
+    username: root
+    password:
+
+# cloud foundry target settings 
+  cloud:
+    cloudfoundry:
+      password: ${vcap.services.credhub-metricr.credentials.password:XXX}
+      username: ${vcap.services.credhub-metricr.credentials.username:dflick@pivotal.io}
+      url: ${url:api.run.pivotal.io}
+      skip-ssl-validation: ${skip-ssl-validation:false}
+      
+# cloud foundry java client connection settings 
+io:
+  pivotal:
+    metricr:
+      connection-pool-size: ${connection-pool-size:16}
+      proxy-host: ${proxy-host:""}
+      proxy-port: ${proxy-port:8099}
+      proxy-type: ${proxy-type:SOCKS5}
+      
+
+

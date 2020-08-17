@@ -1,0 +1,19 @@
+io:
+  pivotal:
+    metricr:
+      connection-pool-size: ${connection-pool-size:16}
+      proxy-host: ${proxy-host:""}
+      proxy-port: ${proxy-port:8099}
+      proxy-type: ${proxy-type:SOCKS5}
+
+spring:
+  profiles:
+    active: poi, withsocks
+  cloud:
+    cloudfoundry:
+      space: ${space:dflick-dev}
+      org: ${org:emea}
+      password: ${vcap.services.credhub-metricr.credentials.password}
+      username: ${vcap.services.credhub-metricr.credentials.username}
+      url: ${url:api.run.pivotal.io}
+      skip-ssl-validation: ${skip-ssl-validation:true}
