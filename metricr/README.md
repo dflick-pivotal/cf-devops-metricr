@@ -3,7 +3,7 @@
 ````bash
 cd metricr
 ````
-- edit [credentials.json](credentials.json) and configure clientId and clientSecret you received due to your IAM approval tool request.
+- edit [credentials.json](credentials.json) and configure cloud foundry username and password.
 ````json
 {
     "password" : "YOUR-PASSWORD",  
