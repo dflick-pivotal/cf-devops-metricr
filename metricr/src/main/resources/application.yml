@@ -35,8 +35,8 @@ spring:
 # cloud foundry target settings 
   cloud:
     cloudfoundry:
-      password: ${vcap.services.credhub-metricr.credentials.password:XXX}
-      username: ${vcap.services.credhub-metricr.credentials.username:dflick@pivotal.io}
+      password: ${vcap.services.credhub-metricr.credentials.password:YOUR-PASSWORD}
+      username: ${vcap.services.credhub-metricr.credentials.username:YOUR-USERNAME}
       url: ${url:api.run.pivotal.io}
       skip-ssl-validation: ${skip-ssl-validation:false}
       
