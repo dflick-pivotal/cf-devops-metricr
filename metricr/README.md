@@ -36,5 +36,5 @@ export vcap_services_credhub_metricr_credentials_username=YOUR-USERNAME
 ````
 - run metricr application
 ````bash
-java -jar ./metricr/target/metricr-0.0.1-SNAPSHOT.jar
+java -Dreactor.ipc.netty.pool.acquireTimeout=1000000 -jar ./metricr/target/metricr-0.0.1-SNAPSHOT.jar
 ````
