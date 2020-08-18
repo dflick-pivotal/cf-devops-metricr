@@ -1,4 +1,8 @@
 # metricr quick start
+- cd into "metricr"
+````bash
+cd metricr
+````
 - edit [credentials.json](credentials.json) and configure clientId and clientSecret you received due to your IAM approval tool request.
 ````json
 {
@@ -6,17 +10,13 @@
     "username" : "YOUR-USERNAME"
 }
 ````
-- create a mysql service instance
-````bash
-cf create-service p.mysql db-small db
-````
 - create a credhub service instance
 ````bash
 cf create-service credhub default credhub-metricr -c credentials.json
 ````
-- cd into "metricr"
+- create a mysql service instance
 ````bash
-cd metricr
+cf create-service p.mysql db-small db
 ````
 - configure cloud foundry api endpoint in [manifest.yml](manifest.yml)
 ````yml
@@ -26,7 +26,6 @@ url: api.YOUR-CF-SYSTEM-DOMAIN
 ````bash
 cf push
 ````
-
 # run the app on your local machine:
 - export environment variables.  
 ````bash
