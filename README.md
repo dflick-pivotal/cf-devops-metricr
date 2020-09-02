@@ -19,11 +19,11 @@ Example: buildpack usage
 # Quick start
 - clone this repo
 ````bash
-git clone https://github.com/dflick-pivotal/cfdevopsmetricr.git
+git clone https://github.com/dflick-pivotal/cf-devops-metricr.git
 ````
-- cd into "cfdevopsmetricr"
+- cd into "cf-devops-metricr"
 ````bash
-cd cfdevopsmetricr
+cd cf-devops-metricr
 ````
 - run "./mvnw package" (linux) or "mvnw.cmd package" (windows)
 ````bash
